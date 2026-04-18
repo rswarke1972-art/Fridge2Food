@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "name": "Pasta",
@@ -9,4 +10,17 @@
     "steps": ["Boil pasta", "Add sauce"],
     "image": "https://via.placeholder.com/150"
   }
+=======
+[
+  {
+    "name": "Pasta",
+    "region": "italian",
+    "cost": 150,
+    "time": 20,
+    "nutrients": { "protein": 10 },
+    "ingredients": ["pasta", "tomato", "sauce"],
+    "steps": ["Boil pasta", "Add sauce"],
+    "image": "https://via.placeholder.com/150"
+  }
+>>>>>>> 4f33fc612b00083a98597ff09cc83e41b0016c93
 ]

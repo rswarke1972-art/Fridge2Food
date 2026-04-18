@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,4 +40,47 @@
   </div>
 
 </body>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init("YOUR_PUBLIC_KEY"); // 🔥 add your EmailJS public key here
+    })();
+  </script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="back-center">
+      <button onclick="goBack()">← Back</button>
+    </div>
+
+    <h2>Contact Us</h2>
+    <p class="contact-msg">
+  If you have any suggestions, ideas, or found a bug, feel free to contact us.
+  We’d love to hear your feedback and improve the experience 😊
+</p>
+
+    <form onsubmit="sendMessage(event)">
+      <input id="name" placeholder="Your Name" required>
+      <input id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+
+    <p id="status"></p>
+
+  </div>
+
+</body>
+>>>>>>> 4f33fc612b00083a98597ff09cc83e41b0016c93
 </html>
