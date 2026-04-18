@@ -238,7 +238,3 @@ function sendMessage(event) {
     console.error(error);
   });
 }
-
-function goBack() {
-  window.history.back();
-}

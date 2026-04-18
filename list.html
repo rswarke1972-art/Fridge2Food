@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -66,73 +65,4 @@
 </div>
 
 </body>
-=======
-<!DOCTYPE html>
-<html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Recipes</title>
-  <link rel="stylesheet" href="style.css">
-  <script defer src="script.js"></script>
-</head>
-<body onload="initList()">
-
-<div class="container">
-
-  <div class="back-center">
-    <button onclick="goBack()">← Back</button>
-  </div>
-
-  <h2>Recipes</h2>
-
-  <div class="filters">
-
-
-  <div>
-    <label>Region</label><br>
-    <select id="region" onchange="loadRecipes()">
-      <option value="india.json">Indian</option>
-    </select>
-  </div>
-
-  <div>
-    <label>Sort</label><br>
-    <select id="sort" onchange="applyFilters()">
-      <option value="">None</option>
-      <option value="cost">Cost</option>
-      <option value="time">Time</option>
-    </select>
-  </div>
-
-  <div>
-    <label>Nutrient</label><br>
-    <select id="nutrient" onchange="applyFilters()">
-      <option value="">None</option>
-      <option value="protein">High Protein</option>
-    </select>
-  </div>
-
-  <div>
-  <label>Course</label><br>
-  <select id="course" onchange="applyFilters()">
-    <option value="">All</option>
-    <option value="appetizer">Appetizer / Starter</option>
-    <option value="soup">Soup</option>
-    <option value="salad">Salad / Antipasto</option>
-    <option value="side">Side / Accompaniment</option>
-    <option value="bread">Bread</option>
-    <option value="entree">Main Course</option>
-    <option value="dessert">Dessert</option>
-    <option value="drink">Cocktail / Mocktail</option>
-  </select>
-</div>
-
-</div>
-
-  <div id="recipeList" class="grid"></div>
-
-</div>
-
-</body>
->>>>>>> 4f33fc612b00083a98597ff09cc83e41b0016c93
 </html>
