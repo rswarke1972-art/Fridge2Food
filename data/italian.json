@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Pasta",
+    "region": "italian",
+    "cost": 150,
+    "time": 20,
+    "nutrients": { "protein": 10 },
+    "ingredients": ["pasta", "tomato", "sauce"],
+    "steps": ["Boil pasta", "Add sauce"],
+    "image": "https://via.placeholder.com/150"
+  }
+]

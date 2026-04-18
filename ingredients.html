@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Recipes</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<div class="back-center">
+    <button onclick="goBack()">← Back</button>
+  </div>
+<body onload="initIngredients()">
+
+
+
+<div class="center">
+  <h2>Find by Ingredients</h2>
+  <input id="input" placeholder="onion, tomato">
+  <button onclick="searchRecipes()">Search</button>
+</div>
+
+<div id="results" class="grid"></div>
+
+</body>
+</html>
